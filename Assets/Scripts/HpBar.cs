@@ -29,7 +29,5 @@ public class HpBar : MonoBehaviour
     {
         gameObject.SetActive(value != hpSlider.maxValue);
         hpSlider.value = value;
-
-        Debug.Log($"{hpSlider.value} {hpSlider.maxValue} {hpSystem.Hp}");
     }
 }
